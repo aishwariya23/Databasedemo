@@ -16,8 +16,8 @@ app.listen(process.env.PORT, () => {
   console.log(`Server running on port ${process.env.PORT}`);
 });
 
-const db=process.env.password;
-console.log(db);
+//const db=process.env.password;
+//console.log(db);
 
 ///URL/api/users --- all user details
 ///url/api/users {body} ---create user
